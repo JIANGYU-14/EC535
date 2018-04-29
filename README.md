@@ -41,8 +41,8 @@ The real-time object detection radar system, which consists of ultrasonic sensor
 
 If you have any questions about the Servo Motor or Ultrasonic Sensor, feel free to contact
 
-jiangyu@bu.edu
+* **Jiangyu Wang** - *jiangyu@bu.edu*
 
 For the LCD TouchScreen, please contact:
 
-gaojq@bu.edu
+* **Jianqing Gao** - *gaojq@bu.edu*
