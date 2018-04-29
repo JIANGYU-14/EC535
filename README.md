@@ -23,7 +23,7 @@ The Ultrasonic Sensor works in a way that sends out a high-frequency sound pulse
 
 In our project, 28 GPIO output Pin from Gumstix has been connected to Trigger Pin on sensor to control the output ultrasonic wave. And a timer with period one second is set to control the wave period. For the Trigger Pin, the duration of high level set to 20ms and delay another 20ms afterwards. For the Echo Pin, two GPIO input Pins from Gumstix has been connected correctly, and two interrupts has been created, one for detecting the rising edge of response signal, and another for detecting the falling edge of response signal. The corresponding time stamp also marked by gettimeofday function to calculating the duration of reflected signal. Then multiple the sound speed to get the actual distance from detected object to sensor.
 
-Note the tricky part is the sensor power must be 5 voltage, otherwise the detected distance is extremely unreliable, that is why a Arduino board included in our project, yet solely for the power supply. The same issue also applied to servo motor part.
+Note the tricky part is the sensor power must be 5 voltage, otherwise the detected distance is extremely unreliable, that is why a Arduino board included in our project, yet solely for the power supply. The same issue also applied to servo motor.
 
 At the end, the performance of ultrasonic sensor has been evaluated, it shows high accuracy for detecting the distance from object to sensor after compared to actual distance with effective detection range from 2cm to 2m, and And a user level program was also created for read the real-time numerical data from Kernel Module, and then write into a txt file for the following data display on LCD screen.
 
