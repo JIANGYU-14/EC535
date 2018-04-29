@@ -36,3 +36,13 @@ For point and background setting, there are several functions: QGraphicsView QGr
 # Summary
 
 The real-time object detection radar system, which consists of ultrasonic sensor, servo motor and LCD touch screen, showed great promise as initially proposed. The sensor is able to detect the object right in front of it, and successfully give the distance feedback at a range from 2cm to 2m, and any object outside might cause poorly performance of sensor. As for servo motor, it works well and only at power of 5 voltage, rotation angle and speed could be specified as need, yet outrange PWM duty cycle setting will cause permanent damage to servo. At LCD displaying part, we are able to read the data from Gumstix, which prestored in two txt file, forwardly, display the corresponding angle and distance information correctly on LCD screen, and shows the detected object in a radar like figure as a red dot.
+
+# Contact
+
+If you have any questions about the Servo Motor or Ultrasonic Sensor, feel free to contact
+
+jiangyu@bu.edu
+
+For the LCD TouchScreen, please contact:
+
+gaojq@bu.edu
